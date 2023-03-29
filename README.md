@@ -143,6 +143,19 @@ while($count < count($names)){
 `the_post();` is a wordpress function that loops through all the posts in the database
 
 ```php
+<?php
+
+while(have_posts()){
+    the_post(); ?>
+    <h2><a href="<?php the_permalink(); ?>"><?php the_title() ?></a></h2>
+    <?php the_content() ?>
+    <hr>
+<?php }
+
+?>
 
 
 ```
+
+
+**Our home page uses index.php ... but wordpress is always on the lookout for some specific file names; for instance, single.php ... which dictates what we should see when viewing a single post**
