@@ -4,8 +4,7 @@
 Login:
 
 <details>
-
-<summary>local wp login<summary>
+<summary>Local wp Login</summary>
 
 - username: bgoonz
 - Password: Ruletheweb2023!
