@@ -43,3 +43,24 @@ echo 2 + 2;
 <h2>All about <?php echo $myname ?><h2>
 
 ```
+
+
+**Creating a custom theme**
+
+- create a folder in wp-content/themes
+- In that folder you need to create an `index.php` file and a `style.css` file
+
+In the `style.css` file you need to add the following:
+
+```css
+/*
+Theme Name: Fictional University
+Author: Bryan Guner
+Version: 1.0
+Description: Fictional University Theme
+*/
+```
+
+- In order to have a screenshot of your theme you need to create a `screenshot.png` file in the root of your theme folder
+-  In order to have a custom logo you need to create a `logo.png` file in the root of your theme folder
+
