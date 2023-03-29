@@ -137,6 +137,12 @@ while($count < count($names)){
     $count++;
 }
 ?>
+```
+
+**Looping through blog posts**
+`the_post();` is a wordpress function that loops through all the posts in the database
+
+```php
 
 
 ```
