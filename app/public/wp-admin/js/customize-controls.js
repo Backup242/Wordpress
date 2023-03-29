@@ -4318,16 +4318,14 @@
           0 !== notifications.length
         );
         control.container.toggleClass("has-error", hasError);
-        container
-          .empty()
-          .append(
-            control
-              .notificationsTemplate({
-                notifications: notifications,
-                altNotice: Boolean(control.altNotice),
-              })
-              .trim()
-          );
+        container.empty().append(
+          control
+            .notificationsTemplate({
+              notifications: notifications,
+              altNotice: Boolean(control.altNotice),
+            })
+            .trim()
+        );
       },
 
       /**
