@@ -1,4 +1,12 @@
-<?php ?>
+<?php 
+echo 2 + 2;
+ $myname = "Bryan";
+
+
+
+
+?>
 
 <h1>This page is about Bryan<h1>
-<h2>He is a great guy<h2>
+    <?php echo 5* 5 ?>
+<h2>All about Bryan<h2>

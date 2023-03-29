@@ -17,3 +17,14 @@
 ```php
 ?>
 ```
+
+
+**Creating a variable in php:**
+
+```php
+<?php 
+ $myname = "Bryan";
+
+?>
+
+```
