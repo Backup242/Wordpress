@@ -159,3 +159,9 @@ while(have_posts()){
 
 
 **Our home page uses index.php ... but wordpress is always on the lookout for some specific file names; for instance, single.php ... which dictates what we should see when viewing a single post**
+> if a single.php is not found wordpress will use index.php as a universal fallback
+
+
+**For individual pages we can use page.php**
+
+
