@@ -64,3 +64,41 @@ Description: Fictional University Theme
 - In order to have a screenshot of your theme you need to create a `screenshot.png` file in the root of your theme folder
 -  In order to have a custom logo you need to create a `logo.png` file in the root of your theme folder
 
+
+
+**Functions in PHP**
+
+```php
+<?php
+function myFirstFunction() {
+  echo "<p>Hello World!</p>";
+}
+myFirstFunction();
+myFirstFunction();
+?>
+
+```
+- more advanced version
+
+```php
+<?php
+function greet($name, $color = "blue"){
+    echo "<p>Hi, my name is $name and my favorite color is $color.</p>";
+}
+
+greet("John", "red");
+greet("Jane", "green");
+greet("Bryan");
+?>
+
+
+```
+
+
+**Tapping into Wordpress builtin functions**
+
+```php
+<h1><?php bloginfo(); ?></h1>
+<p><?php bloginfo('description'); ?></p>
+
+```

@@ -1,0 +1,32 @@
+[29-Mar-2023 21:36:58 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + int in C:\Users\bryan\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php:3
+Stack trace:
+#0 C:\Users\bryan\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php(5): myFirstFunction()
+#1 C:\Users\bryan\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\bryan\\...')
+#2 C:\Users\bryan\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\bryan\\...')
+#3 C:\Users\bryan\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\bryan\\...')
+#4 {main}
+  thrown in C:\Users\bryan\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 3
+[29-Mar-2023 21:37:15 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + string in C:\Users\bryan\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php:3
+Stack trace:
+#0 C:\Users\bryan\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php(5): myFirstFunction()
+#1 C:\Users\bryan\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\bryan\\...')
+#2 C:\Users\bryan\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\bryan\\...')
+#3 C:\Users\bryan\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\bryan\\...')
+#4 {main}
+  thrown in C:\Users\bryan\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 3
+[29-Mar-2023 21:37:16 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + string in C:\Users\bryan\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php:3
+Stack trace:
+#0 C:\Users\bryan\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php(5): myFirstFunction()
+#1 C:\Users\bryan\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\bryan\\...')
+#2 C:\Users\bryan\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\bryan\\...')
+#3 C:\Users\bryan\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\bryan\\...')
+#4 {main}
+  thrown in C:\Users\bryan\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 3
+[29-Mar-2023 21:37:16 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + string in C:\Users\bryan\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php:3
+Stack trace:
+#0 C:\Users\bryan\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php(5): myFirstFunction()
+#1 C:\Users\bryan\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\bryan\\...')
+#2 C:\Users\bryan\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\bryan\\...')
+#3 C:\Users\bryan\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\bryan\\...')
+#4 {main}
+  thrown in C:\Users\bryan\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 3
