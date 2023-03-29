@@ -164,4 +164,12 @@ while(have_posts()){
 
 **For individual pages we can use page.php**
 
+> index, single, page, header, and footer are all template files that wordpress will look for
+> functions.php is a file that wordpress will look for and run automatically
+
+- add_action() is a wordpress function that allows us to tap into wordpress' builtin functions
+
+```php
+add_action() // add_action() is a function that takes two arguments: the first is the name of the action we want to hook into, and the second is the function we want to run when that action is triggered.
+```
 
