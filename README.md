@@ -2,8 +2,11 @@
 
 ---
 Login:
+
 <details>
+
 <summary>local wp login<summary>
+
 - username: bgoonz
 - Password: Ruletheweb2023!
 
