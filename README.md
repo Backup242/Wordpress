@@ -181,3 +181,11 @@ while(have_posts()){
 add_action() // add_action() is a function that takes two arguments: the first is the name of the action we want to hook into, and the second is the function we want to run when that action is triggered.
 ```
 
+
+
+**Wordpress Post ID** is a unique number that is assigned to every post in the database
+
+
+**`wp_get_post_parent_id()`** is a wordpress function that returns the parent id of a post... if the post has no parent it will return 0
+
+
